@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    /* border: 0.5px solid rgb(243, 190, 31); */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+
+header {
+    background-color: "transparent";
+    border: 2px solid #76cb95;
+    height: 55px;
+    align-items: center;
+    margin-bottom: "50px";
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.applications {
+    width: 100%;
+    gap: 20px
+}
+
+.oneApplications {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.btn {
+    background-color: #76cb95 !important;
+}
