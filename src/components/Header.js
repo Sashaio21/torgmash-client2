@@ -38,8 +38,8 @@ function Header() {
     return (
         <header>
             <div className='row container' style={{justifyContent: "space-between", alignItems: "center", height:"100%"}}>
-                <Link to={'/'} className='row' style={{gap: "10px"}}>
-                    <img className='image' alt="Some text" />
+                <Link to={'/'} className='row' style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <img src='logo.jpg' className='image' alt="Some text" width={"30px"} />
                     <p>На главную</p>
                 </Link>
 
